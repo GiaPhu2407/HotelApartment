@@ -1,7 +1,7 @@
 import React from "react";
-// import { FaCompass } from "react-icons/fa";
-// import { IoBedOutline } from "react-icons/io5";
-// import { GiBathtub } from "react-icons/gi";
+import { FaCompass } from "react-icons/fa";
+import { IoBedOutline } from "react-icons/io5";
+import { GiBathtub } from "react-icons/gi";
 const ContentProfileRoom = () => {
   return (
     <div className="text-center">
