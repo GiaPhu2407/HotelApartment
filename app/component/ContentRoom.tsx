@@ -5,6 +5,7 @@ import { IoBedOutline } from "react-icons/io5";
 import { GiBathtub } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 const ContentRoom = () => {
   useEffect(() => {
     AOS.init({ duration: 1500 });
@@ -15,98 +16,102 @@ const ContentRoom = () => {
         className="flex justify-center gap-10 mt-2 mb-5 "
         data-aos="fade-left"
       >
-        <div className="carousel w-[500px] h-[300px]">
-          <div id="slide1" className="carousel-item relative w-full">
-            <img
-              src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide6" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide2" className="btn btn-circle">
-                ❯
-              </a>
+        <Link href={"/ShowContentRoom"}>
+          {" "}
+          <div className="carousel w-[500px] h-[300px]">
+            <div id="slide1" className="carousel-item relative w-full">
+              <img
+                src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide6" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide2" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
+            </div>
+            <div id="slide2" className="carousel-item relative w-full">
+              <img
+                src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810696769_564a7fec7bd12ad33518c13eb621431c-510x360.jpg"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide3" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
+            </div>
+            <div id="slide3" className="carousel-item relative w-full">
+              <img
+                src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810674619_5e060452b26f7d90cc8f67cccdc6b014-510x360.jpg"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide4" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
+            </div>
+            <div id="slide4" className="carousel-item relative w-full">
+              <img
+                src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide5" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
+            </div>
+            <div id="slide5" className="carousel-item relative w-full">
+              <img
+                src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810648780_4fd7c64cccbc8e2c096445c023faf13f-510x360.jpg"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide6" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
+            </div>
+            <div id="slide6" className="carousel-item relative w-full">
+              <img
+                src="https://ezcloud.vn/wp-content/uploads/2019/07/4649_abc-1.jpg.webp"
+                className="w-full"
+                alt=""
+              />
+              <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide5" className="btn btn-circle">
+                  ❮
+                </a>
+                <a href="#slide1" className="btn btn-circle">
+                  ❯
+                </a>
+              </div>
             </div>
           </div>
-          <div id="slide2" className="carousel-item relative w-full">
-            <img
-              src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810696769_564a7fec7bd12ad33518c13eb621431c-510x360.jpg"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide1" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide3" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide3" className="carousel-item relative w-full">
-            <img
-              src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810674619_5e060452b26f7d90cc8f67cccdc6b014-510x360.jpg"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide2" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide4" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide4" className="carousel-item relative w-full">
-            <img
-              src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide3" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide5" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide5" className="carousel-item relative w-full">
-            <img
-              src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810648780_4fd7c64cccbc8e2c096445c023faf13f-510x360.jpg"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide4" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide6" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-          <div id="slide6" className="carousel-item relative w-full">
-            <img
-              src="https://ezcloud.vn/wp-content/uploads/2019/07/4649_abc-1.jpg.webp"
-              className="w-full"
-              alt=""
-            />
-            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-              <a href="#slide5" className="btn btn-circle">
-                ❮
-              </a>
-              <a href="#slide1" className="btn btn-circle">
-                ❯
-              </a>
-            </div>
-          </div>
-        </div>
+        </Link>
+
         {/* Carousel 2 */}
         <div className="carousel w-[500px] h-[300px]">
           <div id="slide1_1" className="carousel-item relative w-full">

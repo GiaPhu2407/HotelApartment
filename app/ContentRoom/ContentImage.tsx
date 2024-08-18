@@ -15,7 +15,6 @@ const ContentImage = () => {
                 <img
                   src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_33-scaled-1920x650.jpg"
                   alt="gallery image"
-                  layout="responsive"
                   width={500}
                   height={800}
                   className="w-full h-[500px] object-cover object-center overflow-hidden"
@@ -25,7 +24,6 @@ const ContentImage = () => {
                 <img
                   src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Rooms_30-scaled-500x500.jpg"
                   alt="gallery image"
-                  layout="responsive"
                   width={500}
                   height={800}
                   className="w-full h-[500px] object-cover object-center overflow-hidden"
@@ -35,7 +33,6 @@ const ContentImage = () => {
                 <img
                   src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_32-scaled-500x500.jpg"
                   alt="gallery image"
-                  layout="responsive"
                   width={500}
                   height={800}
                   className="w-full h-[500px] object-cover object-center overflow-hidden"
@@ -45,7 +42,6 @@ const ContentImage = () => {
                 <img
                   src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_31-scaled-500x500.jpg"
                   alt="gallery image"
-                  layout="responsive"
                   width={500}
                   height={800}
                   className="w-full h-[500px] object-cover object-center overflow-hidden"
@@ -63,7 +59,6 @@ const ContentImage = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_33-scaled-1920x650.jpg"
                 alt="thumbnail-1"
-                layout="responsive"
                 width={20}
                 height={100}
                 className="w-[400px] h-[200px] object-cover object-center"
@@ -78,7 +73,6 @@ const ContentImage = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Rooms_30-scaled-500x500.jpg"
                 alt="thumbnail-2"
-                layout="responsive"
                 width={150}
                 height={100}
                 className="w-[250px] h-[300px]object-cover object-center"
@@ -93,7 +87,6 @@ const ContentImage = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_32-scaled-500x500.jpg"
                 alt="thumbnail-3"
-                layout="responsive"
                 width={150}
                 height={100}
                 className="w-[400px] h-[200px] object-cover object-center"
@@ -108,7 +101,6 @@ const ContentImage = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_31-scaled-500x500.jpg"
                 alt="thumbnail-4"
-                layout="responsive"
                 width={150}
                 height={100}
                 className="w-[400px] h-[200px] object-cover object-center"
