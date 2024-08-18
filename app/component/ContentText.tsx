@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const ContentText = () => {
+export async function ContentText() {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -20,6 +20,6 @@ const ContentText = () => {
       </p>
     </div>
   );
-};
+}
 
 export default ContentText;

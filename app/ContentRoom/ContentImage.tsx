@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const ContentImage = () => {
+export async function ContentImage() {
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
@@ -114,6 +114,6 @@ const ContentImage = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ContentImage;

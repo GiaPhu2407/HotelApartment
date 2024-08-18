@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./Header";
 import Content from "./Content";
 import Footer from "./Footer";
-const Server = () => {
+export async function Server  () {
   return (
     <div>
       <Header />

@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const NewandEvent = () => {
+export async function NewandEvent  () {
   useEffect(() => {
     AOS.init({ duration: 2500 });
   }, []);

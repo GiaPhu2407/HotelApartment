@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => {
+export async function Footer() {
   return (
     <div>
       <footer className="bg-white dark:bg-gray-900 mt-10">
@@ -218,6 +218,6 @@ const Footer = () => {
       </footer>
     </div>
   );
-};
+}
 
 export default Footer;

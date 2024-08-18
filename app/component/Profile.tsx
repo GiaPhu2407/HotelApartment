@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const Profile = () => {
+export async function Profile () {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);

@@ -5,7 +5,7 @@ import ContentText from "./ContentText";
 import Profile from "./Profile";
 import NewandEvent from "./NewandEvent";
 import ContentNewandEvent from "./ContentNewandEvent";
-const Content = () => {
+export async function Content() {
   return (
     <div>
       <ContentHeader />
@@ -16,6 +16,6 @@ const Content = () => {
       <NewandEvent />
     </div>
   );
-};
+}
 
 export default Content;

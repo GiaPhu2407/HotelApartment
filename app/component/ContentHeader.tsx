@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-const ContentHeader = () => {
+export async function ContentHeader  () {
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
