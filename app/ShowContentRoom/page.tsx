@@ -1,7 +1,7 @@
 import React from "react";
 import Server from "../ContentRoom/Server";
 
-export async function page  ()  {
+const page = () => {
   return (
     <div>
       <Server />
