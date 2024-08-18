@@ -2,7 +2,7 @@ import React from "react";
 import { FaCompass } from "react-icons/fa";
 import { IoBedOutline } from "react-icons/io5";
 import { GiBathtub } from "react-icons/gi";
-export async function ContentProfileRoom() {
+const ContentProfileRoom = () => {
   return (
     <div className="text-center">
       <div className="ml-10">
@@ -41,6 +41,6 @@ export async function ContentProfileRoom() {
       </div>
     </div>
   );
-}
+};
 
 export default ContentProfileRoom;

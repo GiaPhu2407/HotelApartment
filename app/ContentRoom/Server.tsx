@@ -2,7 +2,7 @@ import React from "react";
 import Header from "./HeaderRoom";
 import Content from "./Content";
 import Footer from "./Footer";
-export async function Server() {
+const Server = () => {
   return (
     <div>
       <Header />
@@ -10,6 +10,6 @@ export async function Server() {
       <Footer />
     </div>
   );
-}
+};
 
 export default Server;

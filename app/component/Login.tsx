@@ -1,6 +1,6 @@
 import React from "react";
 
-export async function Login() {
+const Login = () => {
   return (
     <div>
       <div className="relative py-3 sm:max-w-xl sm:mx-auto w-full">
@@ -235,6 +235,6 @@ export async function Login() {
       </div>
     </div>
   );
-}
+};
 
 export default Login;

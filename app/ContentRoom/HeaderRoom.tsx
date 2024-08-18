@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-export async function Header() {
+const Header = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -354,6 +354,6 @@ export async function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;
