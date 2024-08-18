@@ -1,6 +1,6 @@
 import React from "react";
 import Server from "../component/Server";
-export async function page ()  {
+const page = () => {
   return (
     <div>
       <Server />
