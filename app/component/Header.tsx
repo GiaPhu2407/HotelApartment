@@ -16,7 +16,7 @@ const Header = () => {
         className="w-full object-cover h-full relative blur-[1.5px] "
         alt="Header Background"
       />
-      {/*  */}
+      {/* Menu */}
 
       <nav className=" border-gray-200 dark:bg-gray-900 absolute top-0 left-0 w-full text-center">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl mx-auto p-4">
@@ -338,6 +338,22 @@ const Header = () => {
                   className="block py-2 px-3 text-zinc-100 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Team
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-zinc-100 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Service
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="block py-2 px-3 text-zinc-100 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Meeting Room
                 </a>
               </li>
             </ul>
