@@ -475,9 +475,13 @@ const ContentRoom = () => {
         data-aos="fade-left"
       >
         <div className="pl-[156px]">
-          <a href="" className="text-black hover:text-amber-800 text-[35px]">
+          <Link
+            href={"ShowCR3"}
+            className="text-black hover:text-amber-800 text-[35px]"
+          >
             Deluxy Family
-          </a>
+          </Link>
+
           <div className="flex mt-4 gap-7">
             <div className="flex">
               <div className="text-xl">
