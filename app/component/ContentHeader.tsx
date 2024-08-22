@@ -8,7 +8,7 @@ const ContentHeader = () => {
   }, []);
   return (
     <div
-      className="mt-10 justify-center items-center w-full box-border mb-14 "
+      className=" mt-10 justify-center items-center w-full box-border mb-14 "
       data-aos="fade-down"
     >
       <p className="text-center text-3xl font-semibold mb-4">

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const Header = () => {
+const HeaderRoom1 = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -356,4 +356,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderRoom1;

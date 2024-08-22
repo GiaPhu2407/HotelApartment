@@ -3,7 +3,7 @@ import HearderRoom3 from "./HearderRoom3";
 import Content3 from "./Content3";
 import Footer from "./Footer";
 
-const Server = () => {
+const Server3 = () => {
   return (
     <div>
       <HearderRoom3 />
@@ -13,4 +13,4 @@ const Server = () => {
   );
 };
 
-export default Server;
+export default Server3;

@@ -1,10 +1,10 @@
 import React from "react";
-import Server3 from "../ContentRoom3/Server3";
+import Header4 from "../component/ContentRoom4/Header4";
 
 const page = () => {
   return (
     <div>
-      <Server3 />
+      <Header4 />
     </div>
   );
 };

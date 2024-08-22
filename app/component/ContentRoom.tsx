@@ -22,7 +22,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_33-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide6" className="btn btn-circle">
@@ -37,7 +37,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Rooms_30-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide1" className="btn btn-circle">
@@ -52,7 +52,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_32-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide2" className="btn btn-circle">
@@ -67,7 +67,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_33-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide3" className="btn btn-circle">
@@ -82,7 +82,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Room_31-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide4" className="btn btn-circle">
@@ -97,7 +97,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/Rooms_12-scaled-510x360.jpg"
                 className="w-full"
-                alt="Room 1"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide5" className="btn btn-circle">
@@ -145,7 +145,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide6_2" className="btn btn-circle">
@@ -160,7 +160,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810696769_564a7fec7bd12ad33518c13eb621431c-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide1_2" className="btn btn-circle">
@@ -175,7 +175,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810674619_5e060452b26f7d90cc8f67cccdc6b014-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide2_2" className="btn btn-circle">
@@ -190,7 +190,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide3_2" className="btn btn-circle">
@@ -205,7 +205,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810648780_4fd7c64cccbc8e2c096445c023faf13f-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide4_2" className="btn btn-circle">
@@ -220,7 +220,7 @@ const ContentRoom = () => {
               <img
                 src="https://amazinghotel.com.vn/wp-content/uploads/2021/06/z4285810650920_2c47d0c9e65e8bbb1b23f7f8aea00d9a-510x360.jpg"
                 className="w-full"
-                alt="Room 2"
+                alt=""
               />
               <div className="absolute inset-0 flex justify-between items-center px-5">
                 <a href="#slide5_2" className="btn btn-circle">
@@ -261,6 +261,7 @@ const ContentRoom = () => {
           </div>
         </div>
       </div>
+      
       <div>
         <div data-aos="fade-left" className="w-full md:w-[500px]">
           <div className="carousel h-[300px] w-full">
@@ -436,7 +437,7 @@ const ContentRoom = () => {
           </div>
           <div className="pl-4 mt-4">
             <Link
-              href={"ShowCR2"}
+              href={"/ShowCR4"}
               className="text-black hover:text-amber-800 text-[28px] md:text-[35px]"
             >
               Deluxe Room

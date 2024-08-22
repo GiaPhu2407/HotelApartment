@@ -1,10 +1,10 @@
 import React from "react";
-import Server from "../ContentRoom/Server";
+import Header1 from "../component/ContentRoom1/Header1";
 
 const page = () => {
   return (
     <div>
-      <Server />
+      <Header1 />
     </div>
   );
 };

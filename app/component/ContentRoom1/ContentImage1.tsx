@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const ContentImage = () => {
+const ContentImage1 = () => {
   const [activeIndex, setActiveIndex] = useState(1);
 
   return (
@@ -116,4 +116,4 @@ const ContentImage = () => {
   );
 };
 
-export default ContentImage;
+export default ContentImage1;

@@ -8,7 +8,7 @@ import ContentNewandEvent from "./ContentNewandEvent";
 const Content = () => {
   return (
     <div>
-      <ContentHeader />
+      <ContentHeader/>
       <ContentRoom />
       <ContentText />
       <Profile />
